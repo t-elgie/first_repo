@@ -1,0 +1,17 @@
+---
+title: "first_repo_markdown"
+output: html_document
+date: "2025-08-21"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, test-plot}
+summary(cars)
+plot(cars)
+
+```
+
+
