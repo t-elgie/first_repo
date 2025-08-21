@@ -9,9 +9,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r, test-plot}
-summary(cars)
-plot(cars)
+plot(cars, col = "red", xlab = "speed (mph)", ylab = "distance (miles)")
 
+```
+
+```{r, summary}
+library(knitr)
+kable(summary(cars))
 ```
 
 
